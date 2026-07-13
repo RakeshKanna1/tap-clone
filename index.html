@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkillTap Academy | Learn. Practice. Get Placed.</title>
+  <meta name="description" content="SkillTap Academy isIndia's leading placement-focused tech training bootcamp. Master high-demand software engineering, coding problems and UI/UX design.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress-bar" aria-hidden="true"></div>
+
+  <!-- Sticky Floating Glassmorphic Navbar -->
+  <header class="navbar-header">
+    <div class="container navbar-container">
+      <a href="#hero" class="logo" aria-label="SkillTap Academy Home">
+        <svg class="logo-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M4 19.5A2.5 2.5 0 0 0 6.5 22H20M4 19.5L4 3.5A2.5 2.5 0 0 1 6.5 1M20 3v14H6.5"></path>
+        </svg>
+        <span>SkillTap <span class="logo-accent">Academy</span></span>
+      </a>
+
+      <!-- Desktop Nav Menu -->
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="#courses" class="nav-link">Courses</a>
+        <a href="#roadmap" class="nav-link">Roadmaps</a>
+        <a href="#coding" class="nav-link">Practice</a>
+        <a href="#stats" class="nav-link">Placements</a>
+        <a href="#reviews" class="nav-link">Success Stories</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="#apply" class="btn btn-primary btn-sm enroll-nav-btn">Enroll Now</a>
+      </nav>
+
+      <!-- Hamburger toggle menu -->
+      <button class="mobile-hamburger" aria-label="Open mobile menu" aria-expanded="false" aria-controls="mobile-nav-overlay">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer Overlay Menu -->
+    <nav id="mobile-nav-overlay" class="mobile-drawer" aria-label="Mobile Navigation" aria-hidden="true">
+      <a href="#courses" class="mobile-drawer-link">Courses</a>
+      <a href="#roadmap" class="mobile-drawer-link">Roadmaps</a>
+      <a href="#coding" class="mobile-drawer-link">Practice</a>
+      <a href="#stats" class="mobile-drawer-link">Placements</a>
+      <a href="#reviews" class="mobile-drawer-link">Success Stories</a>
+      <a href="#faq" class="mobile-drawer-link">FAQ</a>
+      <a href="#apply" class="mobile-drawer-link mobile-enroll-link">Enroll Now</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 1. Hero Section -->
+    <section id="hero" class="hero-section" aria-label="Hero Banner">
+      <div class="container hero-grid">
+        <!-- Hero Text content -->
+        <div class="hero-text reveal">
+          <div class="hero-badge">
+            <span class="badge-icon">
+              <svg class="badge-svg-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="margin-right: 0.25rem; vertical-align: -2px;">
+                <path d="M4.5 16.5c-1.5 1.25-2.5 3.5-2.5 3.5s2.25-1 3.5-2.5L18 5l-3-3L4.5 16.5z"></path>
+                <path d="M12 15l9 9-4-4-5-5z"></path>
+              </svg>
+            </span>
+            <span class="badge-text">100% Placement Protection Cohorts</span>
+          </div>
+          <h1>Learn. Practice.<br><span class="hero-highlight">Get Placed.</span></h1>
+          <p class="hero-subtitle">SkillTap Academy is India's leading placement tech bootcamp. Master software engineering core concepts, solve curated algorithms, audit resumes and clear mock interviews led by FAANG leads.</p>
+          
+          <!-- Key placement bullets -->
+          <ul class="hero-bullets-list">
+            <li>
+              <svg class="bullet-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>8.2 LPA Average Package</span>
+            </li>
+            <li>
+              <svg class="bullet-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>500+ Hiring Partners</span>
+            </li>
+          </ul>
+
+          <div class="hero-buttons">
+            <a href="#courses" class="btn btn-primary">Explore Courses</a>
+            <a href="#apply" class="btn btn-outline">Talk to a Career Mentor</a>
+          </div>
+
+          <!-- Student trust badges -->
+          <div class="hero-trust-row">
+            <div class="avatar-stack">
+              <span class="avatar-ring" style="background-color: #2563EB;">SR</span>
+              <span class="avatar-ring" style="background-color: #16A34A;">NG</span>
+              <span class="avatar-ring" style="background-color: #EA580C;">AC</span>
+              <span class="avatar-ring" style="background-color: #7C3AED;">JD</span>
+            </div>
+            <div class="trust-meta">
+              <span class="trust-title">10,000+ Students Placed</span>
+              <span class="trust-sub">95% Success Rate drives</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Hero Dashboard Mockup Splitscreen (LeetCode x Coding Ninjas Lookalike) -->
+        <div class="hero-splitscreen-container reveal" style="transition-delay: 0.15s;">
+          <div class="hero-splitscreen-grid">
+            <!-- Left Pane: LeetCode Code Terminal -->
+            <div class="terminal-card shadow-premium">
+              <div class="terminal-header">
+                <div class="header-dots">
+                  <span class="dot dot-red"></span>
+                  <span class="dot dot-yellow"></span>
+                  <span class="dot dot-green"></span>
+                </div>
+                <div class="terminal-tabs-row">
+                  <div class="terminal-tab active-tab" data-lang="java" tabindex="0" role="button" aria-label="Switch to Java solution">
+                    <span class="tab-icon">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="display:inline-block; vertical-align:-1px; margin-right:0.15rem;">
+                        <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                        <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                        <path d="M6 1v3"></path>
+                        <path d="M10 1v3"></path>
+                        <path d="M14 1v3"></path>
+                      </svg>
+                    </span>
+                    <span class="tab-name">twoSum.java</span>
+                  </div>
+                  <div class="terminal-tab" data-lang="python" tabindex="0" role="button" aria-label="Switch to Python solution">
+                    <span class="tab-icon">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="display:inline-block; vertical-align:-1px; margin-right:0.15rem;">
+                        <path d="M12 2H6a4 4 0 0 0-4 4v3a4 4 0 0 0 4 4h12a4 4 0 0 1 4 4v3a4 4 0 0 1-4 4h-6"></path>
+                        <circle cx="9" cy="6" r="1" fill="currentColor"></circle>
+                        <circle cx="15" cy="18" r="1" fill="currentColor"></circle>
+                      </svg>
+                    </span>
+                    <span class="tab-name">twoSum.py</span>
+                  </div>
+                </div>
+              </div>
+              <div class="terminal-body coding-screen" id="hero-terminal-body">
+                <pre><code><span class="keyword">class</span> <span class="cls">Solution</span> {
+    <span class="keyword">public int</span>[] twoSum(<span class="keyword">int</span>[] nums, <span class="keyword">int</span> target) {
+        <span class="cls">Map</span>&lt;<span class="cls">Integer</span>, <span class="cls">Integer</span>&gt; map = <span class="keyword">new</span> <span class="cls">HashMap</span>&lt;&gt;();
+        <span class="keyword">for</span> (<span class="keyword">int</span> i = 0; i &lt; nums.length; i++) {
+            <span class="keyword">int</span> diff = target - nums[i];
+            <span class="keyword">if</span> (map.containsKey(diff)) {
+                <span class="keyword">return new int</span>[] { map.get(diff), i };
+            }
+            map.put(nums[i], i);
+        }
+        <span class="keyword">return new int</span>[] {};
+    }
+}<span class="blinking-cursor">|</span></code></pre>
+              </div>
+              <div class="terminal-footer">
+                <span class="test-result success" id="hero-test-result">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>✓ Test Cases Passed</span>
+                </span>
+                <span class="test-runtime" id="hero-test-runtime">Runtime: 1ms</span>
+              </div>
+            </div>
+
+            <!-- Right Pane: Recruiter Dashboard (Coding Ninjas x TAP Academy) -->
+            <div class="ninjas-card shadow-premium">
+              <div class="ninjas-header">
+                <div class="ninjas-avatar">F</div>
+                <div class="ninjas-meta">
+                  <span class="meta-name">Profile Sandbox</span>
+                  <span class="meta-status">Rank #4,102</span>
+                </div>
+                <span class="ninjas-badge">Level 12</span>
+              </div>
+              <div class="ninjas-body">
+                <!-- Solved stats -->
+                <div class="ninjas-stats-row">
+                  <div class="n-stat">
+                    <span class="n-stat-lbl">Solved</span>
+                    <span class="n-stat-val">512</span>
+                  </div>
+                  <div class="n-stat">
+                    <span class="n-stat-lbl">Streak</span>
+                    <span class="n-stat-val text-orange">56 Days</span>
+                  </div>
+                  <div class="n-stat">
+                    <span class="n-stat-lbl">Readiness</span>
+                    <span class="n-stat-val text-green">94%</span>
+                  </div>
+                </div>
+
+                <!-- Mini Activity Grid Calendar -->
+                <div class="mini-contribution-map">
+                  <span class="map-title">Coding Activity</span>
+                  <div class="map-grid">
+                    <!-- Column 1 -->
+                    <div class="map-col">
+                      <span class="grid-sq active-3"></span>
+                      <span class="grid-sq"></span>
+                      <span class="grid-sq active-1"></span>
+                      <span class="grid-sq active-2"></span>
+                    </div>
+                    <!-- Column 2 -->
+                    <div class="map-col">
+                      <span class="grid-sq active-1"></span>
+                      <span class="grid-sq active-3"></span>
+                      <span class="grid-sq active-2"></span>
+                      <span class="grid-sq active-1"></span>
+                    </div>
+                    <!-- Column 3 -->
+                    <div class="map-col">
+                      <span class="grid-sq active-2"></span>
+                      <span class="grid-sq active-1"></span>
+                      <span class="grid-sq"></span>
+                      <span class="grid-sq active-3"></span>
+                    </div>
+                    <!-- Column 4 -->
+                    <div class="map-col">
+                      <span class="grid-sq active-1"></span>
+                      <span class="grid-sq active-2"></span>
+                      <span class="grid-sq active-1"></span>
+                      <span class="grid-sq"></span>
+                    </div>
+                    <!-- Column 5 -->
+                    <div class="map-col">
+                      <span class="grid-sq"></span>
+                      <span class="grid-sq active-3"></span>
+                      <span class="grid-sq active-2"></span>
+                      <span class="grid-sq active-1"></span>
+                    </div>
+                    <!-- Column 6 -->
+                    <div class="map-col">
+                      <span class="grid-sq active-1"></span>
+                      <span class="grid-sq active-1"></span>
+                      <span class="grid-sq active-3"></span>
+                      <span class="grid-sq active-2"></span>
+                    </div>
+                    <!-- Column 7 -->
+                    <div class="map-col">
+                      <span class="grid-sq active-2"></span>
+                      <span class="grid-sq"></span>
+                      <span class="grid-sq active-1"></span>
+                      <span class="grid-sq active-3"></span>
+                    </div>
+                    <!-- Column 8 -->
+                    <div class="map-col">
+                      <span class="grid-sq active-3"></span>
+                      <span class="grid-sq active-2"></span>
+                      <span class="grid-sq active-1"></span>
+                      <span class="grid-sq"></span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Recruiter Status -->
+                <div class="recruiter-status-alert">
+                  <span class="company-logo-badge">G</span>
+                  <div class="recruiter-details">
+                    <span class="company-name">Google SDE-1 Drive</span>
+                    <span class="company-status">Technical Interview Tomorrow</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Trusted By Monochrome Logo Bar -->
+    <section class="trusted-section">
+      <div class="container reveal">
+        <p class="trusted-header text-center">OUR ALUMNI WORK AT TOP MULTINATIONALS</p>
+        <div class="trusted-logos-grid">
+          <div class="partner-logo">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            <span>TechNova</span>
+          </div>
+          <div class="partner-logo">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+            <span>CloudSpark</span>
+          </div>
+          <div class="partner-logo">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 22 22 22 12 2"/></svg>
+            <span>CodeNest</span>
+          </div>
+          <div class="partner-logo">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><path d="M2 12h20"/></svg>
+            <span>Blue Orbit</span>
+          </div>
+          <div class="partner-logo">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            <span>PixelWorks</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Placement Statistics Section -->
+    <section id="stats" class="stats-section" aria-label="Placement Statistics">
+      <div class="container stats-grid-layout reveal-stagger">
+        <div class="stat-card">
+          <h3 class="stat-val" data-target="10000" data-suffix="+">0+</h3>
+          <p class="stat-label">Students Trained</p>
+        </div>
+        <div class="stat-card">
+          <h3 class="stat-val" data-target="95" data-suffix="%">0%</h3>
+          <p class="stat-label">Placement Rate</p>
+        </div>
+        <div class="stat-card">
+          <h3 class="stat-val" data-target="8" data-suffix=".2 LPA">0.0 LPA</h3>
+          <p class="stat-label">Average Package</p>
+        </div>
+        <div class="stat-card">
+          <h3 class="stat-val" data-target="500" data-suffix="+">0+</h3>
+          <p class="stat-label">Hiring Partners</p>
+        </div>
+        <div class="stat-card">
+          <h3 class="stat-val" data-target="1000" data-suffix="K+">0K+</h3>
+          <p class="stat-label">Problems Solved</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Learning Journey Timeline (Roadmap) -->
+    <section id="roadmap" class="section-padding roadmap-section" aria-labelledby="roadmap-title">
+      <div class="container">
+        <div class="text-center reveal">
+          <span class="section-pill">LEARNING ROADMAP</span>
+          <h2 id="roadmap-title" class="section-title">Your Path to Placement Success</h2>
+          <p class="section-subtitle">A structured career acceleration journey built to take you from a programming novice to a hiring selection star.</p>
+        </div>
+
+        <div class="roadmap-timeline-container reveal">
+          <div class="timeline-bar"></div>
+          
+          <div class="roadmap-nodes-wrapper">
+            <!-- Node 1 -->
+            <div class="roadmap-node-item">
+              <div class="node-marker">1</div>
+              <div class="node-card">
+                <span class="node-tag">Phase 1</span>
+                <h3>Assessment</h3>
+                <p>Skill gap audit and personalized coding roadmap designed by career mentors.</p>
+              </div>
+            </div>
+
+            <!-- Node 2 -->
+            <div class="roadmap-node-item">
+              <div class="node-marker">2</div>
+              <div class="node-card">
+                <span class="node-tag">Phase 2</span>
+                <h3>Learning</h3>
+                <p>Interactive cohorts led by industry software leads covering syntax and frameworks.</p>
+              </div>
+            </div>
+
+            <!-- Node 3 -->
+            <div class="roadmap-node-item">
+              <div class="node-marker">3</div>
+              <div class="node-card">
+                <span class="node-tag">Phase 3</span>
+                <h3>Coding Practice</h3>
+                <p>Tackle 500+ curated problems inside our LeetCode problem solving engine.</p>
+              </div>
+            </div>
+
+            <!-- Node 4 -->
+            <div class="roadmap-node-item">
+              <div class="node-marker">4</div>
+              <div class="node-card">
+                <span class="node-tag">Phase 4</span>
+                <h3>Mock Interviews</h3>
+                <p>1-on-1 technical and communication audits led by FAANG engineering managers.</p>
+              </div>
+            </div>
+
+            <!-- Node 5 -->
+            <div class="roadmap-node-item">
+              <div class="node-marker">5</div>
+              <div class="node-card">
+                <span class="node-tag">Phase 5</span>
+                <h3>Resume Review</h3>
+                <p>Optimize your portfolio CV layout for ATS scanning and keywords.</p>
+              </div>
+            </div>
+
+            <!-- Node 6 -->
+            <div class="roadmap-node-item">
+              <div class="node-marker">6</div>
+              <div class="node-card">
+                <span class="node-tag">Phase 6</span>
+                <h3>Placement Ready</h3>
+                <p>Gain direct recruitment drive invites and automated MNC job referral channels.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Course Tabs Section -->
+    <section id="courses" class="section-padding course-section" aria-labelledby="courses-heading">
+      <div class="container">
+        <div class="text-center reveal">
+          <span class="section-pill">FEATURED COHORTS</span>
+          <h2 id="courses-heading" class="section-title">Job Ready Bootcamps</h2>
+          <p class="section-subtitle">Choose from our industry-vetted tech training cohorts. Select a category below to filter.</p>
+        </div>
+        
+        <!-- Tab Category Controls -->
+        <nav class="course-tabs-nav reveal" aria-label="Course Category Tabs">
+          <button class="tab-btn active" data-tab="All">All Programs</button>
+          <button class="tab-btn" data-tab="Full Stack">Full Stack Java</button>
+          <button class="tab-btn" data-tab="Data Science">Data Science</button>
+          <button class="tab-btn" data-tab="Web Development">Web Development</button>
+          <button class="tab-btn" data-tab="Designing">Designing</button>
+        </nav>
+
+        <!-- Dynamic Course Grid (JS Injected) -->
+        <div class="courses-grid reveal-stagger">
+          <!-- Dynamically populated via script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Alternating Course Showcase Sections (Coursera Style) -->
+    <section id="showcase" class="section-padding showcase-section" aria-label="Program Showcase Deep Dive">
+      <div class="container">
+        <div class="text-center reveal">
+          <span class="section-pill">PROGRAM DETAILS</span>
+          <h2 class="section-title">Deep Dive Inside Our Curriculums</h2>
+          <p class="section-subtitle">Go beyond basic lecture videos. Build production code and deploy databases like real tech teams.</p>
+        </div>
+
+        <div class="showcase-alternating-rows">
+          <!-- Row 1: Java Full Stack -->
+          <div class="showcase-row reveal">
+            <div class="showcase-info">
+              <span class="showcase-row-tag">JAVA BACKEND</span>
+              <h3>Enterprise Backend Architecture</h3>
+              <p>Become a backend specialist. Learn to architect high-performance server structures, create Spring Boot web APIs, and write optimized SQL queries.</p>
+              <ul class="showcase-detail-bullets">
+                <li>
+                  <svg class="bullet-check" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span><strong>Curriculum:</strong> Java OOPs, Spring Boot, Hibernate, PostgreSQL, Docker, AWS</span>
+                </li>
+                <li>
+                  <svg class="bullet-check" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span><strong>Outcome:</strong> Eligible for Backend Developer, Database Engineer, SDE-1 roles</span>
+                </li>
+                <li>
+                  <svg class="bullet-check" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span><strong>Capstone Project:</strong> Real-time banking transaction pipeline processing 10K requests/sec</span>
+                </li>
+              </ul>
+              <a href="#apply" class="btn btn-primary">Enroll Now</a>
+            </div>
+            <div class="showcase-visual">
+              <div class="mockup-browser">
+                <div class="browser-header">
+                  <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                  <div class="browser-address">localhost:8080/api/v1/payments</div>
+                </div>
+                <div class="browser-content coding-screen">
+                  <pre><code><span class="keyword">@RestController</span>
+<span class="keyword">@RequestMapping</span>(<span class="str">"/api/v1/payments"</span>)
+<span class="keyword">public class</span> <span class="cls">PaymentController</span> {
+  <span class="keyword">@PostMapping</span>
+  <span class="keyword">public</span> <span class="cls">ResponseEntity</span> process() {
+    <span class="keyword">return</span> <span class="cls">ResponseEntity</span>.ok(service.pay());
+  }
+}</code></pre>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Row 2: Data Science -->
+          <div class="showcase-row reverse reveal" style="transition-delay: 0.1s;">
+            <div class="showcase-info">
+              <span class="showcase-row-tag">DATA SCIENCE &amp; ML</span>
+              <h3>Data Models &amp; Predictive Algorithms</h3>
+              <p>Build strong ML model foundations. Clean unstructured datasets, write data pipelines, and train models in Python.</p>
+              <ul class="showcase-detail-bullets">
+                <li>
+                  <svg class="bullet-check" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span><strong>Curriculum:</strong> NumPy, Pandas, Scikit-Learn, TensorFlow, SQL, Tableau dashboards</span>
+                </li>
+                <li>
+                  <svg class="bullet-check" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span><strong>Outcome:</strong> Eligible for Data Analyst, Machine Learning Engineer, Business Intelligence SDE</span>
+                </li>
+                <li>
+                  <svg class="bullet-check" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span><strong>Capstone Project:</strong> Customer churn prediction engine with 94.2% validation accuracy</span>
+                </li>
+              </ul>
+              <a href="#apply" class="btn btn-primary">Enroll Now</a>
+            </div>
+            <div class="showcase-visual">
+              <div class="mockup-browser">
+                <div class="browser-header">
+                  <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                  <div class="browser-address">data-insights/churn-prediction</div>
+                </div>
+                <div class="browser-content chart-screen">
+                  <div class="mini-data-chart">
+                    <div class="c-bar" style="height: 30%;"></div>
+                    <div class="c-bar" style="height: 65%;"></div>
+                    <div class="c-bar" style="height: 90%;"></div>
+                    <div class="c-bar" style="height: 50%;"></div>
+                  </div>
+                  <div class="chart-lbl">Accuracy Score: 94.2%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Coding Practice Section (LeetCode Style) -->
+    <section id="coding" class="section-padding coding-section" aria-labelledby="coding-title">
+      <div class="container coding-grid">
+        <div class="coding-info reveal">
+          <span class="section-pill">CODING PLATFORM</span>
+          <h2 id="coding-title" class="section-title">Solve. Code. Compete.</h2>
+          <p class="section-subtitle" style="margin-bottom:1.5rem;">Learn by doing on our interactive coding environment. Tackle curated algorithms and track stats in real time.</p>
+          <ul class="coding-checklist">
+            <li>
+              <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Curated LeetCode-style problem database</span>
+            </li>
+            <li>
+              <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Difficulty distributions tracking</span>
+            </li>
+            <li>
+              <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Weekly interactive coding contests</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Widget Card (LeetCode Lookalike) -->
+        <div class="coding-widget-card reveal" style="transition-delay: 0.1s;">
+          <div class="widget-header">
+            <div class="widget-profile">
+              <span class="profile-avatar">S</span>
+              <div class="profile-details">
+                <span class="profile-name">Student Sandbox</span>
+                <span class="profile-rank">Global Rank: #4,102</span>
+              </div>
+            </div>
+            <span class="widget-tag">LeetCode Play</span>
+          </div>
+          <div class="widget-body" style="display: flex; flex-direction: column; gap: 0.85rem;">
+            <div class="streak-banner">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2C6.5 2 2 6.5 2 12c0 2 1 3.5 2 4.5L12 8l-4.5 8.5c1 1 2.5 2 4.5 2 5.5 0 10-4.5 10-10C22 6.5 17.5 2 12 2z"></path></svg>
+              <span>56 Days Coding Streak!</span>
+            </div>
+
+            <div class="stats-row">
+              <div class="problems-progress">
+                <svg class="circular-progress-svg" width="90" height="90">
+                  <circle class="progress-bg" stroke="#E5E7EB" stroke-width="6" fill="transparent" r="38" cx="45" cy="45"/>
+                  <circle class="progress-fill" stroke="#2563EB" stroke-width="6" fill="transparent" r="38" cx="45" cy="45" stroke-dasharray="238.76" stroke-dashoffset="60"/>
+                </svg>
+                <div class="problems-count">
+                  <span class="count-num">512</span>
+                  <span class="count-lbl">Solved</span>
+                </div>
+              </div>
+
+              <div class="difficulty-bars">
+                <div class="diff-bar-item">
+                  <div class="diff-lbl">Easy <span>210/240</span></div>
+                  <div class="bar-bg"><div class="bar-fill green" style="width: 87.5%;"></div></div>
+                </div>
+                <div class="diff-bar-item">
+                  <div class="diff-lbl">Medium <span>242/400</span></div>
+                  <div class="bar-bg"><div class="bar-fill orange" style="width: 60.5%;"></div></div>
+                </div>
+                <div class="diff-bar-item">
+                  <div class="diff-lbl">Hard <span>60/120</span></div>
+                  <div class="bar-bg"><div class="bar-fill red" style="width: 50%;"></div></div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- LeetCode Contribution Squares Grid (Lookalike) -->
+            <div class="leetcode-activity-grid">
+              <span class="map-title">Submissions in the last 6 months</span>
+              <div class="leetcode-squares-container">
+                <div class="sq-col"><span class="grid-sq active-3"></span><span class="grid-sq"></span><span class="grid-sq active-1"></span><span class="grid-sq active-2"></span><span class="grid-sq"></span><span class="grid-sq active-3"></span><span class="grid-sq"></span></div>
+                <div class="sq-col"><span class="grid-sq active-1"></span><span class="grid-sq active-2"></span><span class="grid-sq active-3"></span><span class="grid-sq active-1"></span><span class="grid-sq"></span><span class="grid-sq active-2"></span><span class="grid-sq active-1"></span></div>
+                <div class="sq-col"><span class="grid-sq active-2"></span><span class="grid-sq active-3"></span><span class="grid-sq active-1"></span><span class="grid-sq active-2"></span><span class="grid-sq"></span><span class="grid-sq active-3"></span><span class="grid-sq"></span></div>
+                <div class="sq-col"><span class="grid-sq active-1"></span><span class="grid-sq active-1"></span><span class="grid-sq active-2"></span><span class="grid-sq"></span><span class="grid-sq active-3"></span><span class="grid-sq active-2"></span><span class="grid-sq active-1"></span></div>
+                <div class="sq-col"><span class="grid-sq"></span><span class="grid-sq active-2"></span><span class="grid-sq active-3"></span><span class="grid-sq active-1"></span><span class="grid-sq active-2"></span><span class="grid-sq"></span><span class="grid-sq active-1"></span></div>
+                <div class="sq-col"><span class="grid-sq active-3"></span><span class="grid-sq active-1"></span><span class="grid-sq active-2"></span><span class="grid-sq active-1"></span><span class="grid-sq active-3"></span><span class="grid-sq active-2"></span><span class="grid-sq"></span></div>
+                <div class="sq-col"><span class="grid-sq active-1"></span><span class="grid-sq active-2"></span><span class="grid-sq"></span><span class="grid-sq active-3"></span><span class="grid-sq active-1"></span><span class="grid-sq active-2"></span><span class="grid-sq active-1"></span></div>
+                <div class="sq-col"><span class="grid-sq active-2"></span><span class="grid-sq active-3"></span><span class="grid-sq active-1"></span><span class="grid-sq"></span><span class="grid-sq active-2"></span><span class="grid-sq active-3"></span><span class="grid-sq"></span></div>
+                <div class="sq-col"><span class="grid-sq"></span><span class="grid-sq active-1"></span><span class="grid-sq active-2"></span><span class="grid-sq active-3"></span><span class="grid-sq"></span><span class="grid-sq active-1"></span><span class="grid-sq active-2"></span></div>
+                <div class="sq-col"><span class="grid-sq active-3"></span><span class="grid-sq active-2"></span><span class="grid-sq active-1"></span><span class="grid-sq active-3"></span><span class="grid-sq active-2"></span><span class="grid-sq"></span><span class="grid-sq active-1"></span></div>
+                <div class="sq-col"><span class="grid-sq active-1"></span><span class="grid-sq active-3"></span><span class="grid-sq"></span><span class="grid-sq active-2"></span><span class="grid-sq active-1"></span><span class="grid-sq active-3"></span><span class="grid-sq active-2"></span></div>
+                <div class="sq-col"><span class="grid-sq active-2"></span><span class="grid-sq"></span><span class="grid-sq active-1"></span><span class="grid-sq active-3"></span><span class="grid-sq active-2"></span><span class="grid-sq active-1"></span><span class="grid-sq"></span></div>
+              </div>
+            </div>
+            
+            <div class="widget-footer-action">
+              <span class="challenge-title">Daily Challenge: Problem #344: Reverse String</span>
+              <a href="#courses" class="btn btn-primary btn-sm">Solve Challenge</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Resume Builder Section (ATS Preview) -->
+    <section id="resume" class="section-padding resume-section" aria-labelledby="resume-title">
+      <div class="container resume-grid">
+        <!-- ATS Scorecard -->
+        <div class="resume-widget-card reveal">
+          <div class="widget-header">
+            <div class="widget-profile">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+              <span class="profile-name" style="margin-left: 0.5rem;">ATS Resume Scorecard</span>
+            </div>
+            <span class="widget-tag">ATS Scanner v2</span>
+          </div>
+          <div class="widget-body">
+            <div class="ats-score-row">
+              <div class="ats-circle-box">
+                <svg class="ats-circle-svg" width="80" height="80" viewBox="0 0 80 80">
+                  <circle class="circle-bg" stroke="#E5E7EB" stroke-width="5.5" fill="transparent" r="34" cx="40" cy="40"/>
+                  <circle class="circle-fill ats-progress-fill" stroke="#16A34A" stroke-width="5.5" fill="transparent" r="34" cx="40" cy="40" stroke-dasharray="213.6" stroke-dashoffset="25.6"/>
+                </svg>
+                <div class="ats-circle-overlay">
+                  <span class="score-val" id="ats-score-text">88<span class="pct">%</span></span>
+                  <span class="score-lbl">ATS Match</span>
+                </div>
+              </div>
+              <div class="ats-summary">
+                <div class="summary-line match">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span id="ats-match-text">92% Keyword Match with SDE Roles</span>
+                </div>
+                <div class="summary-line match">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Perfect 1-page format layout found</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="ats-suggestions">
+              <h4>Optimization Checklist (Interactive)</h4>
+              <ul class="sug-list">
+                <li class="sug-item success">
+                  <span class="icon-indicator">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="color:var(--success); vertical-align:-1px; margin-right:0.25rem;"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  </span>
+                  Shorten bullet descriptions (Done)
+                </li>
+                <li class="sug-item warning interactive-sug-btn" id="sug-optimize-btn" tabindex="0" role="button" aria-label="Add missing AWS Docker skills to optimize score">
+                  <span class="icon-indicator">
+                    <svg class="bolt-svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:-1px; margin-right:0.25rem;"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                    <svg class="check-svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="display:none; color:var(--success); vertical-align:-1px; margin-right:0.25rem;"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  </span>
+                  <span class="btn-text">Optimize: Add Docker, AWS Deployments</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-info reveal" style="transition-delay: 0.1s;">
+          <span class="section-pill">RESUME OPTIMIZER</span>
+          <h2 id="resume-title" class="section-title">Build High-Scoring ATS Resumes</h2>
+          <p class="section-subtitle">Make your resume stand out in recruiters' tracking software. Learn key formatting rules to increase your interview rates.</p>
+          <ul class="coding-checklist">
+            <li>
+              <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Resume score analyzer scanner</span>
+            </li>
+            <li>
+              <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Missing tech skills recommendation engine</span>
+            </li>
+            <li>
+              <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Format audits tailored for tech giants</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. Mock Interview Section -->
+    <section id="interview" class="section-padding interview-section" aria-labelledby="interview-title">
+      <div class="container interview-grid">
+        <div class="interview-info reveal">
+          <span class="section-pill">MOCK ASSESSMENT</span>
+          <h2 id="interview-title" class="section-title">Crush Real Tech Interviews</h2>
+          <p class="section-subtitle" style="margin-bottom:1.5rem;">Simulate real placements using our 1-on-1 mock panel. Get graded on design patterns, speech tone, and logic flows.</p>
+          <ul class="coding-checklist">
+            <li>
+              <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>FAANG tech interviewers panel</span>
+            </li>
+            <li>
+              <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Speech speed &amp; tone audit assessments</span>
+            </li>
+            <li>
+              <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Overall readiness score rating reports</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="interview-widget-card reveal" style="transition-delay: 0.1s;">
+          <!-- Camera Feed Mockup (AI Interview) -->
+          <div class="interview-video-feed">
+            <div class="video-overlay-top">
+              <span class="rec-dot">● LIVE FEED</span>
+              <span class="time-elapsed">03:45</span>
+            </div>
+            
+            <div class="video-placeholder-user">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+              <span>AI Placement Evaluation</span>
+            </div>
+
+            <!-- Speech Audio Waveform bars -->
+            <div class="waveform-container" aria-hidden="true">
+              <span class="wave-bar"></span>
+              <span class="wave-bar"></span>
+              <span class="wave-bar"></span>
+              <span class="wave-bar"></span>
+              <span class="wave-bar"></span>
+              <span class="wave-bar"></span>
+              <span class="wave-bar"></span>
+              <span class="wave-bar"></span>
+            </div>
+          </div>
+
+          <div class="widget-header" style="border-top: 1px solid var(--border); padding-top: 0.75rem;">
+            <div class="widget-profile">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+              <span class="profile-name" style="margin-left:0.5rem;">Mock Interview Dashboard</span>
+            </div>
+            <span class="widget-tag">AI Tone Auditor</span>
+          </div>
+          <div class="widget-body">
+            <div class="metrics-circular-grid">
+              <div class="metric-circle-box">
+                <svg width="60" height="60">
+                  <circle stroke="#E5E7EB" stroke-width="4" fill="transparent" r="26" cx="30" cy="30"/>
+                  <circle stroke="#2563EB" stroke-width="4" fill="transparent" r="26" cx="30" cy="30" stroke-dasharray="163.36" stroke-dashoffset="13"/>
+                </svg>
+                <div class="metric-overlay">92%</div>
+                <span class="metric-lbl">Confidence</span>
+              </div>
+              
+              <div class="metric-circle-box">
+                <svg width="60" height="60">
+                  <circle stroke="#E5E7EB" stroke-width="4" fill="transparent" r="26" cx="30" cy="30"/>
+                  <circle stroke="#16A34A" stroke-width="4" fill="transparent" r="26" cx="30" cy="30" stroke-dasharray="163.36" stroke-dashoffset="24"/>
+                </svg>
+                <div class="metric-overlay">130</div>
+                <span class="metric-lbl">Speaking Speed</span>
+              </div>
+
+              <div class="metric-circle-box">
+                <svg width="60" height="60">
+                  <circle stroke="#E5E7EB" stroke-width="4" fill="transparent" r="26" cx="30" cy="30"/>
+                  <circle stroke="#EA580C" stroke-width="4" fill="transparent" r="26" cx="30" cy="30" stroke-dasharray="163.36" stroke-dashoffset="24"/>
+                </svg>
+                <div class="metric-overlay">85%</div>
+                <span class="metric-lbl">Eye Contact</span>
+              </div>
+
+              <div class="metric-circle-box">
+                <svg width="60" height="60">
+                  <circle stroke="#E5E7EB" stroke-width="4" fill="transparent" r="26" cx="30" cy="30"/>
+                  <circle stroke="#2563EB" stroke-width="4" fill="transparent" r="26" cx="30" cy="30" stroke-dasharray="163.36" stroke-dashoffset="16"/>
+                </svg>
+                <div class="metric-overlay">9.0</div>
+                <span class="metric-lbl">Communication</span>
+              </div>
+            </div>
+
+            <div class="readiness-gauge">
+              <div class="readiness-lbl">Overall Readiness Status: <span>94% Placed-Ready</span></div>
+              <div class="bar-bg"><div class="bar-fill" style="width: 94%;"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. Placement Dashboard Section -->
+    <section id="placement" class="section-padding placement-dashboard-section" aria-labelledby="placement-title">
+      <div class="container placement-grid-layout">
+        <!-- Hiring Dashboard Card -->
+        <div class="placement-widget-card reveal">
+          <div class="widget-header">
+            <div class="widget-profile">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+              <span class="profile-name" style="margin-left:0.5rem;">Hiring Dashboard</span>
+            </div>
+            <span class="widget-tag">Active Drives</span>
+          </div>
+          <div class="widget-body">
+            <div class="drives-list">
+              <div class="drive-item active">
+                <div class="drive-meta">
+                  <span class="drive-company">TechNova Selection Drive</span>
+                  <span class="drive-package">Salary: 12 LPA</span>
+                </div>
+                <span class="drive-status active">Step 2: Technical Interview</span>
+              </div>
+              
+              <div class="drive-item">
+                <div class="drive-meta">
+                  <span class="drive-company">CloudSpark Software Engineer</span>
+                  <span class="drive-package">Salary: 8.5 LPA</span>
+                </div>
+                <span class="drive-status">Resume Sent</span>
+              </div>
+            </div>
+
+            <div class="drives-checklist">
+              <h4>Drive Eligibility Checklist</h4>
+              <div class="checklist-progress">
+                <div class="progress-step-item"><span class="step-check checked">✓</span> Resume Approved</div>
+                <div class="progress-step-item"><span class="step-check checked">✓</span> Mock Coding Clear</div>
+                <div class="progress-step-item"><span class="step-check checked">✓</span> 1-on-1 Interview Pass</div>
+              </div>
+            </div>
+            
+            <div class="offer-alert">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span><strong>1 Offer Released:</strong> Placed at Nova Labs (14 LPA)!</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="placement-info reveal" style="transition-delay: 0.1s;">
+          <span class="section-pill">HIRING BOARD</span>
+          <h2 id="placement-title" class="section-title">Direct Placement Channels</h2>
+          <p class="section-subtitle">Gain access to automated recruitment drives. Skip the resume screening backlog and land directly inside technical rounds.</p>
+          <ul class="coding-checklist">
+            <li>
+              <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>12+ active drives organized weekly</span>
+            </li>
+            <li>
+              <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Pre-cleared credentials matching</span>
+            </li>
+            <li>
+              <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Job offer release tracker boards</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11. Success Stories Section -->
+    <section id="reviews" class="section-padding reviews-section" aria-labelledby="reviews-heading">
+      <div class="container">
+        <div class="text-center reveal">
+          <span class="section-pill">SUCCESS STORIES</span>
+          <h2 id="reviews-heading" class="section-title">Placed Student Success</h2>
+          <p class="section-subtitle">Read success reviews from our freshers placed at leading technology giants.</p>
+        </div>
+        
+        <!-- Target container for script.js review carousel -->
+        <div class="reviews-carousel-wrapper reveal">
+          <div class="reviews-carousel" aria-live="polite">
+            <div class="reviews-rating">★★★★★</div>
+            <p class="review-text">"Coming from a non-CS engineering background, I was terrified of coding. SkillTap Academy Full Stack trainers taught me from the absolute basics, and within 6 months, I cracked a placement drive at Wipro!"</p>
+            <div class="review-author-card">
+              <div class="review-avatar">RS</div>
+              <div class="review-author-meta">
+                <span class="review-author">Ramesh Sen</span>
+                <span class="review-placement">Placed at Wipro as Software Engineer (6.5 LPA)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 12. Mentors Section -->
+    <section id="mentors" class="section-padding mentors-section" aria-labelledby="mentors-title">
+      <div class="container">
+        <div class="text-center reveal">
+          <span class="section-pill">EXPERT MENTORS</span>
+          <h2 id="mentors-title" class="section-title">Learn From Tech Leaders</h2>
+          <p class="section-subtitle">Get 1-on-1 coaching sessions and profile reviews from SDEs currently working at FAANG giants.</p>
+        </div>
+
+        <div class="mentors-grid reveal-stagger">
+          <!-- Mentor 1 -->
+          <article class="mentor-card">
+            <div class="mentor-photo-box" style="background-color: #DBEAFE; color: #2563EB;">SR</div>
+            <div class="mentor-info">
+              <h3>Siddharth Roy</h3>
+              <span class="mentor-role">Ex-Google Tech Lead</span>
+              <span class="mentor-spec">Java Backend &amp; Architecture</span>
+              <p>10+ years scaling large-scale payment pipelines and distributed services at Google.</p>
+              <a href="#apply" class="btn btn-outline btn-sm mentor-btn">Book Session</a>
+            </div>
+          </article>
+
+          <!-- Mentor 2 -->
+          <article class="mentor-card">
+            <div class="mentor-photo-box" style="background-color: #D1FAE5; color: #059669;">NG</div>
+            <div class="mentor-info">
+              <h3>Neha Gupta</h3>
+              <span class="mentor-role">Ex-Amazon SDE-3</span>
+              <span class="mentor-spec">Algorithms &amp; System Design</span>
+              <p>8+ years managing backend services and teaching data structures to bootcamps.</p>
+              <a href="#apply" class="btn btn-outline btn-sm mentor-btn">Book Session</a>
+            </div>
+          </article>
+
+          <!-- Mentor 3 -->
+          <article class="mentor-card">
+            <div class="mentor-photo-box" style="background-color: #FEE2E2; color: #DC2626;">AC</div>
+            <div class="mentor-info">
+              <h3>Alex Carter</h3>
+              <span class="mentor-role">Ex-Framer Designer</span>
+              <span class="mentor-spec">UI/UX Research &amp; Figma</span>
+              <p>6+ years designing interfaces, wireframing case studies, and reviewing design portfolios.</p>
+              <a href="#apply" class="btn btn-outline btn-sm mentor-btn">Book Session</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 13. FAQ Accordion Section -->
+    <section id="faq" class="section-padding faq-section" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="text-center reveal">
+          <span class="section-pill">QUESTIONS</span>
+          <h2 id="faq-title" class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">Quick answers regarding course eligibility, fees structure and placement drives.</p>
+        </div>
+        
+        <div class="faq-container reveal">
+          <!-- FAQ 1 -->
+          <article class="faq-item">
+            <button class="faq-header" aria-expanded="false" aria-controls="faq1-content">
+              <span>Do I need a computer science background to enroll?</span>
+              <svg class="faq-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div id="faq1-content" class="faq-body" aria-hidden="true">
+              <div class="faq-content">
+                No! Our curriculum is built starting from absolute programming foundations. We have successfully trained and placed civil, mechanical, and commerce graduates in software roles.
+              </div>
+            </div>
+          </article>
+
+          <!-- FAQ 2 -->
+          <article class="faq-item">
+            <button class="faq-header" aria-expanded="false" aria-controls="faq2-content">
+              <span>How does the placement assistance work?</span>
+              <svg class="faq-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div id="faq2-content" class="faq-body" aria-hidden="true">
+              <div class="faq-content">
+                Once you complete your training cohort, build your capstone portfolio projects, and pass our mock interview filters, you receive unlimited placement interview invitations for hiring drives hosted by our partner MNCs.
+              </div>
+            </div>
+          </article>
+
+          <!-- FAQ 3 -->
+          <article class="faq-item">
+            <button class="faq-header" aria-expanded="false" aria-controls="faq3-content">
+              <span>Are classroom training options available?</span>
+              <svg class="faq-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div id="faq3-content" class="faq-body" aria-hidden="true">
+              <div class="faq-content">
+                Yes! We offer live interactive online cohorts as well as physical in-classroom programs at our state-of-the-art coding hubs. Select your preference during application.
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 14. Application Form Section -->
+    <section id="apply" class="section-padding apply-section" aria-labelledby="apply-title">
+      <div class="container">
+        <div class="text-center reveal">
+          <span class="section-pill">ENROLL NOW</span>
+          <h2 id="apply-title" class="section-title">Apply for Admissions</h2>
+          <p class="section-subtitle">Fill out the quick enrollment request form to speak with a career specialist.</p>
+        </div>
+        
+        <div class="apply-card reveal">
+          <form id="apply-form" class="apply-form" action="#" method="POST" novalidate>
+            <div class="form-row">
+              <div class="form-group floating-group">
+                <input type="text" id="form-name" name="name" required placeholder=" " class="form-input">
+                <label for="form-name">Student Full Name</label>
+                <span class="error-msg" id="name-error" aria-live="polite"></span>
+              </div>
+              
+              <div class="form-group floating-group">
+                <input type="email" id="form-email" name="email" required placeholder=" " class="form-input">
+                <label for="form-email">Email Address</label>
+                <span class="error-msg" id="email-error" aria-live="polite"></span>
+              </div>
+            </div>
+            
+            <div class="form-row">
+              <div class="form-group floating-group">
+                <input type="tel" id="form-phone" name="phone" required placeholder=" " class="form-input">
+                <label for="form-phone">Mobile Number</label>
+                <span class="error-msg" id="phone-error" aria-live="polite"></span>
+              </div>
+
+              <div class="form-group floating-group">
+                <input type="text" id="form-college" name="college" required placeholder=" " class="form-input">
+                <label for="form-college">College / University Name</label>
+                <span class="error-msg" id="college-error" aria-live="polite"></span>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="form-course">Preferred Program</label>
+                <select id="form-course" name="course" required class="form-select">
+                  <option value="" disabled selected>Select bootcamp program...</option>
+                  <option value="Java Full Stack Development">Java Full Stack Development</option>
+                  <option value="Python Full Stack Bootcamp">Python Full Stack Bootcamp</option>
+                  <option value="Data Analytics Program">Data Analytics Program</option>
+                  <option value="UI/UX Design Masterclass">UI/UX Design Masterclass</option>
+                  <option value="Cloud Computing Bootcamp">Cloud Computing Bootcamp</option>
+                  <option value="AI &amp; ML Foundations">AI &amp; ML Foundations</option>
+                </select>
+                <span class="error-msg" id="course-error" aria-live="polite"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="form-gradyear">Graduation Year</label>
+                <select id="form-gradyear" name="gradyear" required class="form-select">
+                  <option value="" disabled selected>Select graduation year...</option>
+                  <option value="2024">2024</option>
+                  <option value="2025">2025</option>
+                  <option value="2026">2026</option>
+                  <option value="2027">2027</option>
+                  <option value="2028">2028</option>
+                </select>
+                <span class="error-msg" id="gradyear-error" aria-live="polite"></span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="form-timing">Preferred Cohort Timing</label>
+              <select id="form-timing" name="timing" required class="form-select">
+                <option value="" disabled selected>Select preferred timing...</option>
+                <option value="Morning Cohort (9:00 AM - 1:00 PM)">Morning Cohort (9:00 AM - 1:00 PM)</option>
+                <option value="Evening Cohort (6:00 PM - 10:00 PM)">Evening Cohort (6:00 PM - 10:00 PM)</option>
+              </select>
+              <span class="error-msg" id="timing-error" aria-live="polite"></span>
+            </div>
+            
+            <button type="submit" class="btn btn-primary btn-submit">Submit Admission Request</button>
+          </form>
+
+          <!-- Success Registration Box -->
+          <div id="apply-success" class="success-card" aria-live="polite" style="display: none;">
+            <div class="success-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <div class="success-text">
+              <h3>Application Submitted!</h3>
+              <p>Thank you for choosing SkillTap Academy. A career counselor will contact you via mobile within 12 business hours.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 15. Final CTA Section -->
+    <section class="final-cta-section">
+      <div class="container cta-box reveal">
+        <div class="cta-content">
+          <h2>Start your placement journey today.</h2>
+          <p>Claim your seat inside our next cohort and get direct interview invites for software engineering positions.</p>
+        </div>
+        <div class="cta-actions">
+          <a href="#courses" class="btn btn-primary">Explore Courses</a>
+          <a href="#apply" class="btn btn-outline" style="border-color:#ffffff; color:#ffffff;">Talk to a Mentor</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container footer-grid-container">
+      <div class="footer-brand-col">
+        <a href="#hero" class="logo" aria-label="SkillTap Academy Home">
+          <svg class="logo-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M4 19.5A2.5 2.5 0 0 0 6.5 22H20M4 19.5L4 3.5A2.5 2.5 0 0 1 6.5 1M20 3v14H6.5"></path>
+          </svg>
+          <span>SkillTap <span class="logo-accent">Academy</span></span>
+        </a>
+        <p class="brand-tagline">Learn. Practice. Get Placed.</p>
+        <div class="footer-socials">
+          <a href="#" class="social-link" aria-label="Facebook">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Twitter">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Courses</h4>
+        <a href="#courses">Java Full Stack</a>
+        <a href="#courses">Python Full Stack</a>
+        <a href="#courses">Data Analytics</a>
+        <a href="#courses">UI/UX Design</a>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Resources</h4>
+        <a href="#roadmap">Timeline Roadmap</a>
+        <a href="#coding">LeetCode Practice</a>
+        <a href="#resume">ATS Resume Builder</a>
+        <a href="#interview">Mock Interview</a>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Company</h4>
+        <a href="#mentors">Mentors Grid</a>
+        <a href="#reviews">Success Stories</a>
+        <a href="#faq">F.A.Q. Accordions</a>
+        <a href="#apply">Cohort Admissions</a>
+      </div>
+
+      <div class="footer-links-col newsletter-col">
+        <h4>Newsletter</h4>
+        <p>Subscribe to receive job notifications and cohort updates weekly.</p>
+        <form class="footer-newsletter-form" onsubmit="event.preventDefault(); alert('Subscribed to SkillTap Newsletter!');">
+          <input type="email" class="form-input newsletter-input" placeholder="Your email address" required aria-label="Email address for newsletter">
+          <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <p class="copyright">&copy; 2026 SkillTap Academy. All rights reserved. Built for placement evaluation portfolios. This project is an original educational platform created for learning purposes and inspired by modern EdTech platforms like Scaler, Coursera and Coding Ninjas.</p>
+    </div>
+  </footer>
+
+  <!-- Unified Script -->
+  <script src="script.js"></script>
+</body>
+</html>
